@@ -58,5 +58,5 @@ Code Reviews: Utilize pull requests for code reviews to maintain code quality an
 Documentation: Document your code, processes, and workflows to facilitate collaboration and onboarding.
 Use .gitignore: Utilize .gitignore files to exclude unnecessary files and directories from version control.
 Atomic Commits: Keep commits atomic, focusing on one logical change at a time.
-Rebase vs. Merge: Understand when to use rebase and when to use merge, depending on the context and the desired history.
+Rebase vs. Merge: Understand when to use rebase and when to use merge, depending on the context and the desired history
 
