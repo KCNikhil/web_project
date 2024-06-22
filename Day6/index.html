@@ -3,9 +3,27 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Example</title>
+		<link rel="stylesheet" href="/Day6/styles.css" />
 	</head>
 	<body>
+		<!-- YouTube Search Form -->
+		<form
+			action="https://www.youtube.com/results"
+			method="GET"
+			class="search-form"
+		>
+			<input
+				type="text"
+				name="search_query"
+				placeholder="Search"
+				class="search-input"
+				required
+			/>
+			<input type="submit" value="Search" class="search-button" />
+		</form>
+
+		<!-- Advanced Form -->
 		<form
 			action="https://example.com/submit"
 			method="POST"
@@ -34,7 +52,7 @@
 					type="number"
 					id="age"
 					name="age"
-					min="18"
+					min="1"
 					max="99"
 					required
 				/><br /><br />
